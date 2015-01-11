@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FCF47711A621476008E24F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCF47701A621476008E24F6 /* main.m */; };
+		8FCF47741A621476008E24F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCF47731A621476008E24F6 /* AppDelegate.m */; };
+		8FCF47771A621476008E24F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCF47761A621476008E24F6 /* ViewController.m */; };
+		8FCF477A1A621476008E24F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FCF47781A621476008E24F6 /* Main.storyboard */; };
+		8FCF477C1A621476008E24F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FCF477B1A621476008E24F6 /* Images.xcassets */; };
+		8FCF477F1A621476008E24F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FCF477D1A621476008E24F6 /* LaunchScreen.xib */; };
+		8FCF478B1A621476008E24F6 /* CanYouSurviveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCF478A1A621476008E24F6 /* CanYouSurviveTests.m */; };
+		8FCF47961A6219CF008E24F6 /* missing-puzzle-piece.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FCF47951A6219CF008E24F6 /* missing-puzzle-piece.jpg */; };
+		8FCF47981A621DD8008E24F6 /* ara_map_day_by_saarl-d6qtvq6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FCF47971A621DD8008E24F6 /* ara_map_day_by_saarl-d6qtvq6.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FCF47851A621476008E24F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FCF47631A621476008E24F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FCF476A1A621476008E24F6;
+			remoteInfo = CanYouSurvive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8FCF476B1A621476008E24F6 /* CanYouSurvive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanYouSurvive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FCF476F1A621476008E24F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FCF47701A621476008E24F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FCF47721A621476008E24F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8FCF47731A621476008E24F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8FCF47751A621476008E24F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8FCF47761A621476008E24F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8FCF47791A621476008E24F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FCF477B1A621476008E24F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8FCF477E1A621476008E24F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8FCF47841A621476008E24F6 /* CanYouSurviveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanYouSurviveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FCF47891A621476008E24F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FCF478A1A621476008E24F6 /* CanYouSurviveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanYouSurviveTests.m; sourceTree = "<group>"; };
+		8FCF47951A6219CF008E24F6 /* missing-puzzle-piece.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "missing-puzzle-piece.jpg"; sourceTree = "<group>"; };
+		8FCF47971A621DD8008E24F6 /* ara_map_day_by_saarl-d6qtvq6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ara_map_day_by_saarl-d6qtvq6.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FCF47681A621476008E24F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCF47811A621476008E24F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FCF47621A621476008E24F6 = {
+			isa = PBXGroup;
+			children = (
+				8FCF476D1A621476008E24F6 /* CanYouSurvive */,
+				8FCF47871A621476008E24F6 /* CanYouSurviveTests */,
+				8FCF476C1A621476008E24F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FCF476C1A621476008E24F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FCF476B1A621476008E24F6 /* CanYouSurvive.app */,
+				8FCF47841A621476008E24F6 /* CanYouSurviveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FCF476D1A621476008E24F6 /* CanYouSurvive */ = {
+			isa = PBXGroup;
+			children = (
+				8FCF47941A6219A7008E24F6 /* images */,
+				8FCF47721A621476008E24F6 /* AppDelegate.h */,
+				8FCF47731A621476008E24F6 /* AppDelegate.m */,
+				8FCF47751A621476008E24F6 /* ViewController.h */,
+				8FCF47761A621476008E24F6 /* ViewController.m */,
+				8FCF47781A621476008E24F6 /* Main.storyboard */,
+				8FCF477B1A621476008E24F6 /* Images.xcassets */,
+				8FCF477D1A621476008E24F6 /* LaunchScreen.xib */,
+				8FCF476E1A621476008E24F6 /* Supporting Files */,
+			);
+			path = CanYouSurvive;
+			sourceTree = "<group>";
+		};
+		8FCF476E1A621476008E24F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FCF476F1A621476008E24F6 /* Info.plist */,
+				8FCF47701A621476008E24F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FCF47871A621476008E24F6 /* CanYouSurviveTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FCF478A1A621476008E24F6 /* CanYouSurviveTests.m */,
+				8FCF47881A621476008E24F6 /* Supporting Files */,
+			);
+			path = CanYouSurviveTests;
+			sourceTree = "<group>";
+		};
+		8FCF47881A621476008E24F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FCF47891A621476008E24F6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FCF47941A6219A7008E24F6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8FCF47971A621DD8008E24F6 /* ara_map_day_by_saarl-d6qtvq6.jpg */,
+				8FCF47951A6219CF008E24F6 /* missing-puzzle-piece.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FCF476A1A621476008E24F6 /* CanYouSurvive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FCF478E1A621476008E24F6 /* Build configuration list for PBXNativeTarget "CanYouSurvive" */;
+			buildPhases = (
+				8FCF47671A621476008E24F6 /* Sources */,
+				8FCF47681A621476008E24F6 /* Frameworks */,
+				8FCF47691A621476008E24F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CanYouSurvive;
+			productName = CanYouSurvive;
+			productReference = 8FCF476B1A621476008E24F6 /* CanYouSurvive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FCF47831A621476008E24F6 /* CanYouSurviveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FCF47911A621476008E24F6 /* Build configuration list for PBXNativeTarget "CanYouSurviveTests" */;
+			buildPhases = (
+				8FCF47801A621476008E24F6 /* Sources */,
+				8FCF47811A621476008E24F6 /* Frameworks */,
+				8FCF47821A621476008E24F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FCF47861A621476008E24F6 /* PBXTargetDependency */,
+			);
+			name = CanYouSurviveTests;
+			productName = CanYouSurviveTests;
+			productReference = 8FCF47841A621476008E24F6 /* CanYouSurviveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FCF47631A621476008E24F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ibrahim Mohamad";
+				TargetAttributes = {
+					8FCF476A1A621476008E24F6 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					8FCF47831A621476008E24F6 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 8FCF476A1A621476008E24F6;
+					};
+				};
+			};
+			buildConfigurationList = 8FCF47661A621476008E24F6 /* Build configuration list for PBXProject "CanYouSurvive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FCF47621A621476008E24F6;
+			productRefGroup = 8FCF476C1A621476008E24F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FCF476A1A621476008E24F6 /* CanYouSurvive */,
+				8FCF47831A621476008E24F6 /* CanYouSurviveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FCF47691A621476008E24F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCF477A1A621476008E24F6 /* Main.storyboard in Resources */,
+				8FCF477F1A621476008E24F6 /* LaunchScreen.xib in Resources */,
+				8FCF47981A621DD8008E24F6 /* ara_map_day_by_saarl-d6qtvq6.jpg in Resources */,
+				8FCF477C1A621476008E24F6 /* Images.xcassets in Resources */,
+				8FCF47961A6219CF008E24F6 /* missing-puzzle-piece.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCF47821A621476008E24F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FCF47671A621476008E24F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCF47771A621476008E24F6 /* ViewController.m in Sources */,
+				8FCF47741A621476008E24F6 /* AppDelegate.m in Sources */,
+				8FCF47711A621476008E24F6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCF47801A621476008E24F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCF478B1A621476008E24F6 /* CanYouSurviveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FCF47861A621476008E24F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FCF476A1A621476008E24F6 /* CanYouSurvive */;
+			targetProxy = 8FCF47851A621476008E24F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FCF47781A621476008E24F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FCF47791A621476008E24F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FCF477D1A621476008E24F6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FCF477E1A621476008E24F6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FCF478C1A621476008E24F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8FCF478D1A621476008E24F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FCF478F1A621476008E24F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CanYouSurvive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FCF47901A621476008E24F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CanYouSurvive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8FCF47921A621476008E24F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CanYouSurviveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CanYouSurvive.app/CanYouSurvive";
+			};
+			name = Debug;
+		};
+		8FCF47931A621476008E24F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CanYouSurviveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CanYouSurvive.app/CanYouSurvive";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FCF47661A621476008E24F6 /* Build configuration list for PBXProject "CanYouSurvive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FCF478C1A621476008E24F6 /* Debug */,
+				8FCF478D1A621476008E24F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FCF478E1A621476008E24F6 /* Build configuration list for PBXNativeTarget "CanYouSurvive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FCF478F1A621476008E24F6 /* Debug */,
+				8FCF47901A621476008E24F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8FCF47911A621476008E24F6 /* Build configuration list for PBXNativeTarget "CanYouSurviveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FCF47921A621476008E24F6 /* Debug */,
+				8FCF47931A621476008E24F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FCF47631A621476008E24F6 /* Project object */;
+}
